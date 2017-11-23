@@ -1,3 +1,10 @@
+# LEDE Feeds for GnuPG2
+
+this is my repository for a full gnupg2 installation on a LEDE/OpenWRT device.
+Use the official SDK, add this as a feed, install the feeds and compile it for your device.
+
+I created this to have OpenPGP Card / Smartcard functionality on an __Onion Omega2__.
+
 # Packages
 
 ## from this feeds
