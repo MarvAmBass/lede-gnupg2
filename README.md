@@ -5,6 +5,10 @@ Use the official SDK, add this as a feed, install the feeds and compile it for y
 
 I created this to have OpenPGP Card / Smartcard functionality on an __Onion Omega2__.
 
+## More infos about the SDK
+
+* https://lede-project.org/docs/guide-developer/compile_packages_for_lede_with_the_sdk
+
 # Packages
 
 ## from this feeds
