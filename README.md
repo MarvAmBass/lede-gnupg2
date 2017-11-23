@@ -28,6 +28,16 @@ I created this to have OpenPGP Card / Smartcard functionality on an __Onion Omeg
 
 - haveged
 
+
+### Smartcards
+
+_to enable smartcard reader support enable the `pl2303` kernel module_
+
+* https://www.gnupg.org/howtos/card-howto/en/smartcard-howto-single.html
+
+Also note that the public key is not stored on the smartcard! you need to import the public key first to be able to decrypt the encrypted message with the key stored on the smartcard!
+If the public key is not in the gnupg keystore, it will abort with a error that the key cannot be found - but the key will be visible beneath `gnupg --card-status`
+
 # Usage
 
 # Installing
