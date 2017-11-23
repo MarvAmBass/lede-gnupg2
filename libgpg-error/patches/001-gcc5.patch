@@ -1,0 +1,11 @@
+diff --git a/src/mkheader.c b/src/mkheader.c
+index 43e7fd8..ae29213 100644
+--- a/src/mkheader.c
++++ b/src/mkheader.c
+@@ -165,6 +165,7 @@ mk_include_name (const char *name, const char *repl)
+         *p++ = *s;
+     }
+   *p = 0;
++  fprintf (stderr,"note: incname is '%s'\n", incfname);
+   return incfname;
+ }
