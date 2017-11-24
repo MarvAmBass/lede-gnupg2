@@ -12,7 +12,7 @@ PKG_VERSION:=2.4.3
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=https://www.gnupg.org/ftp/assuan/libassuan/
+PKG_SOURCE_URL:=https://www.gnupg.org/ftp/gcrypt/libassuan/
 PKG_HASH:=22843a3bdb256f59be49842abf24da76700354293a066d82ade8134bb5aa2b71
 
 PKG_LICENSE:=GPL-3.0
