@@ -27,7 +27,7 @@ define Package/gnupg/Default
   SECTION:=gnupg2
   CATEGORY:=GnuPG2
   SUBMENU:=Encryption
-  DEPENDS:=+zlib +libncurses +libreadline +libpcsclite +libusb-1.0 +libgnutls +libcurl +libassuan +libgcrypt +libgpg-error +libksba +npth +ccid #+ntbtls #+libusb-compat
+  DEPENDS:=+zlib +libncurses +libreadline +libpcsclite +libusb-1.0 +libgnutls +libcurl +libassuan +libgcrypt +libgpg-error +libksba +npth +ccid
   TITLE:=GNU privacy guard - a free PGP replacement
   URL:=http://www.gnupg.org/
 endef
