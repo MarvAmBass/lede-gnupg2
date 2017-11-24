@@ -24,8 +24,9 @@ PKG_MAINTAINER := Felix Fietkau <nbd@nbd.name>
 include $(INCLUDE_DIR)/package.mk
 
 define Package/libusb-1.0
-  SECTION:=libs
-  CATEGORY:=Libraries
+  SECTION:=gnupg2
+  CATEGORY:=GnuPG2
+  SUBMENU:=Encryption
   TITLE:=A library for accessing Linux USB devices
   DEPENDS:=+libpthread +librt
   URL:=http://libusb.wiki.sourceforge.net/

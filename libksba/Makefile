@@ -24,8 +24,8 @@ PKG_INSTALL:=1
 include $(INCLUDE_DIR)/package.mk
 
 define Package/libksba/Default
-  SECTION:=utils
-  CATEGORY:=Utilities
+  SECTION:=gnupg2
+  CATEGORY:=GnuPG2
   SUBMENU:=Encryption
   DEPENDS:=+libgpg-error #+libncurses +libreadline +libpcsclite +libusb-compat
   TITLE:=Libksba provides an easy API to create and parse X.509 and CMS related objects.

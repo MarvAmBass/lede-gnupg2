@@ -24,8 +24,8 @@ PKG_INSTALL:=1
 include $(INCLUDE_DIR)/package.mk
 
 define Package/libassuan/Default
-  SECTION:=utils
-  CATEGORY:=Utilities
+  SECTION:=gnupg2
+  CATEGORY:=GnuPG2
   SUBMENU:=Encryption
   DEPENDS:=+libgpg-error
   TITLE:=Libassuan is the IPC library used by some GnuPG related software.

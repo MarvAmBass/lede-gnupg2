@@ -24,8 +24,9 @@ PKG_INSTALL:=1
 include $(INCLUDE_DIR)/package.mk
 
 define Package/libgpg-error
-  SECTION:=libs
-  CATEGORY:=Libraries
+  SECTION:=gnupg2
+  CATEGORY:=GnuPG2
+  SUBMENU:=Encryption
   TITLE:=GnuPG error handling helper library
   URL:=http://www.gnupg.org/related_software/libgpg-error/
   MAINTAINER:=W. Michael Petullo <mike@flyn.org>

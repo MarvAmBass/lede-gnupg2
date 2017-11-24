@@ -24,8 +24,8 @@ PKG_INSTALL:=1
 include $(INCLUDE_DIR)/package.mk
 
 define Package/pinentry/Default
-  SECTION:=utils
-  CATEGORY:=Utilities
+  SECTION:=gnupg2
+  CATEGORY:=GnuPG2
   SUBMENU:=Encryption
   DEPENDS:=+libncurses +libreadline +libgpg-error +libassuan
   TITLE:=pinentry

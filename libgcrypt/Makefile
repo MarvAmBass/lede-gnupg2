@@ -24,8 +24,8 @@ PKG_INSTALL:=1
 include $(INCLUDE_DIR)/package.mk
 
 define Package/libgcrypt/Default
-  SECTION:=utils
-  CATEGORY:=Utilities
+  SECTION:=gnupg2
+  CATEGORY:=GnuPG2
   SUBMENU:=Encryption
   DEPENDS:=+libgpg-error
   TITLE:=Libgcrypt is a general purpose cryptographic library based on the code from GnuPG. It provides functions for all cryptographic building blocks: symmetric ciphers, hash algorithms, MACs, public key algorithms, large integer functions, random numbers and a lot of supporting functions.

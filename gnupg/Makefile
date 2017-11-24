@@ -24,8 +24,8 @@ PKG_INSTALL:=1
 include $(INCLUDE_DIR)/package.mk
 
 define Package/gnupg/Default
-  SECTION:=utils
-  CATEGORY:=Utilities
+  SECTION:=gnupg2
+  CATEGORY:=GnuPG2
   SUBMENU:=Encryption
   DEPENDS:=+zlib +libncurses +libreadline +libpcsclite +libusb-1.0 +libgnutls +libcurl +libassuan +libgcrypt +libgpg-error +libksba +npth +ccid #+ntbtls #+libusb-compat
   TITLE:=GNU privacy guard - a free PGP replacement
