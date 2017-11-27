@@ -28,6 +28,7 @@ I created this to have OpenPGP Card / Smartcard functionality on an __Onion Omeg
 - zlib
 - libbz2
 - libgnutls
+- pcscd
 
 ## additional useful services / programs
 
